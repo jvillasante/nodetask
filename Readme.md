@@ -31,10 +31,10 @@ allow you to see your POST data publically follow the URL in the return body.) P
 silly like your name and current time for testing.
 3. Pass in *null* to *getURL* and make sure it gets error back.
 
-### Installation
+## Installation
 Get it on github, not on npm yet :(
 
-### Usage
+## Usage
     var nodetask = require('nodetask');
 
     nodetask.getUrl('http://www.url.com', function(err, statusCode, body) {
@@ -45,14 +45,14 @@ Get it on github, not on npm yet :(
         console.log(err, statusCode, body);
     });
 
-### Tests
+## Tests
     npm test
 
-### Contributing
+## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
 Add unit tests for any new or changed functionality. Lint and test your code.
 
-### Release History
+## Release History
 
 * 0.1.0 Initial release
