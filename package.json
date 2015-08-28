@@ -1,0 +1,11 @@
+{
+  "name": "nodetask",
+  "version": "1.0.0",
+  "description": "Privicee Job Node Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julio C. Villasante",
+  "license": "MIT"
+}
