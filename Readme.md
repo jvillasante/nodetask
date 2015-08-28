@@ -2,8 +2,6 @@
 
 ## Node.js module – HTTP GET/POST
 
-This is [an example](http://example.com/ "Title") inline link.
-
 Please build a module using the [request](https://www.npmjs.com/package/request) package that has
 two methods, *getURL* and *postURL*. You can think of it as a simple wrapper around ``request``.
 
@@ -32,3 +30,29 @@ callback.
 allow you to see your POST data publically follow the URL in the return body.) Please post something
 silly like your name and current time for testing.
 3. Pass in *null* to *getURL* and make sure it gets error back.
+
+### Installation
+Get it on github, not on npm yet :(
+
+### Usage
+    var nodetask = require('nodetask');
+
+    nodetask.getUrl('http://www.url.com', function(err, statusCode, body) {
+        console.log(err, statusCode, body);
+    });
+
+    nodetask.postUrl('http://www.url.com', {key1: 'value1', key2: 'value2'}, function(err, statusCode, body) {
+        console.log(err, statusCode, body);
+    });
+
+### Tests
+    npm test
+
+### Contributing
+
+In lieu of a formal styleguide, take care to maintain the existing coding style.
+Add unit tests for any new or changed functionality. Lint and test your code.
+
+### Release History
+
+* 0.1.0 Initial release
