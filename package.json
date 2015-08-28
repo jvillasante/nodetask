@@ -4,8 +4,29 @@
   "description": "Privicee Job Node Task",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "request": "^2.61.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "engines": {
+    "node": "0.12.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvillasante/nodetask"
+  },
+  "keywords": [
+    "node",
+    "privicee",
+    "job",
+    "task"
+  ],
   "author": "Julio C. Villasante",
   "license": "MIT"
 }
